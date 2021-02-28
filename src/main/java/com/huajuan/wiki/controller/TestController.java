@@ -11,7 +11,7 @@ public class TestController {
     /*
      * GET, POST, PUT, DELETE
      */
-    @Value("${test.hello: Test")
+    @Value("${test.hello: test")
     private String testHello;
 
     @GetMapping("/hello")
